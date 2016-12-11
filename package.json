@@ -4,7 +4,7 @@
   "description": "An implementation of linear regression in javascript.",
   "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/alexlapinski/ml-nodejs-linearregression#readme",
   "dependencies": {
-    "ndarray": "^1.0.18"
+    "fast-csv": "^2.3.0",
+    "ndarray": "^1.0.18",
+    "ndarray-pack": "^1.2.1",
+    "underscore": "^1.8.3"
   }
 }
